@@ -1,0 +1,114 @@
+* {
+font-family: sans-serif;
+line-height: 1.618em;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+h1, h2,h3 {
+    color: grey;
+}
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+image {
+    width: 50%;
+
+
+}
+
+header {
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header span {
+    font-size: 1.5em;
+    color: #999;
+}
+
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    background: darkgrey;
+}
+
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: gold;
+}
+
+nav a:hover {
+    background: gray;
+
+}
+
+section {
+    margin:  1em 0;
+
+    padding-top: 3em;
+    min-height: 20em;
+}
+
+section > p {
+    margin: 1em o;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#projects article {
+    background: yellow;
+    padding: 1em;
+
+
+}
+
+#projects article img {
+    width: 100%;
+    border: 1px solid #999;
+
+
+}
+footer{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: gold;
+    color: gray;
+    padding: 1em 0;
+    text-align: center;
+}
+
